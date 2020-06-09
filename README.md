@@ -1,4 +1,4 @@
 # login_stateful
 
-login form in stateful mode
+login form in stateful pattern
 
