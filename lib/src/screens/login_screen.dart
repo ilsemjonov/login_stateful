@@ -40,6 +40,7 @@ class LoginScreenState extends State<LoginScreen> {
         if (!value.contains('@')) {
           return 'Please enter a valid email';
         }
+        return null;
       },
       onSaved: (String value) {
         email = value;
@@ -58,6 +59,7 @@ class LoginScreenState extends State<LoginScreen> {
         if (value.length < 4) {
           return 'Ppassword must be at least 4 characters';
         }
+        return null;
       },
       onSaved: (String value) {
         password = value;
